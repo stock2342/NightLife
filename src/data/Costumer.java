@@ -39,7 +39,6 @@ public class Costumer extends User{
     }
 
     public boolean verifyAge(String age){
-        return false;
-        //TODO
+        return Integer.parseInt(age) >= 18;
     }
 }
