@@ -47,8 +47,10 @@ public class User {
 
     public boolean verifyEmail(String email){
         return false;
+        //TODO
     }
     public boolean verifyPassword(String password){
         return false;
+        //TODO
     }
 }
