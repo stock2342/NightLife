@@ -14,6 +14,11 @@ public class Costumer extends User{
         this.idNumber = idNumber;
     }
 
+    @Override
+    public String toString() {
+        return "Costumer, " +  super.toString() + ", " + userName + ", " + birthDate + ", " + idNumber;
+    }
+
     public String getUserName() {
         return userName;
     }

@@ -3,10 +3,16 @@ package data;
 public class Establishment extends User{
     private String cityName;
     private String typeOfEstablishment;
+
     public Establishment(String name, String numberPhone, String email, String password, String cityName, String typeOfEstablishment) {
         super(name, numberPhone, email, password);
         this.cityName = cityName;
         this.typeOfEstablishment = typeOfEstablishment;
+    }
+
+    @Override
+    public String toString() {
+        return "Establishment,  " + super.toString() + ", " +  cityName + ", " + typeOfEstablishment;
     }
 
     public String getCityName() {

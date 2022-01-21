@@ -16,6 +16,11 @@ public class User {
         this.password = password;
     }
 
+    @Override
+    public String toString() {
+        return email + ", " + numberPhone + ", " + name + ", " + password;
+    }
+
     public String getName() {
         return name;
     }
