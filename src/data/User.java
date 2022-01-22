@@ -18,7 +18,7 @@ public class User {
 
     @Override
     public String toString() {
-        return email + ", " + numberPhone + ", " + name + ", " + password;
+        return email + ", " + password  + ", " + name + ", " + numberPhone;
     }
 
     public String getName() {

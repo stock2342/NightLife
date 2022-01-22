@@ -12,7 +12,7 @@ public class Establishment extends User{
 
     @Override
     public String toString() {
-        return "Establishment,  " + super.toString() + ", " +  cityName + ", " + typeOfEstablishment;
+        return super.toString() + ", establishment, " +  cityName + ", " + typeOfEstablishment;
     }
 
     public String getCityName() {
