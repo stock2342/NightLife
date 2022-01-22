@@ -8,8 +8,7 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.util.Scanner;
 
-public class Runner {
-
+public class Runner1 {
     public static String readInfo(){
         Scanner sc = new Scanner(System.in);
         return sc.nextLine().trim();
