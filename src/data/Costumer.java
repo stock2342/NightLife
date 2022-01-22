@@ -16,7 +16,7 @@ public class Costumer extends User{
 
     @Override
     public String toString() {
-        return "Costumer, " +  super.toString() + ", " + userName + ", " + birthDate + ", " + idNumber;
+        return   super.toString() + ", costumer, " + userName + ", " + birthDate + ", " + idNumber;
     }
 
     public String getUserName() {
